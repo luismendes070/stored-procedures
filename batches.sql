@@ -1,0 +1,10 @@
+BEGIN
+CREATE NEW view_name
+AS 
+GO 
+CREATE PROCEDURE procedure_name
+AS 
+INSERT INTO dbo.t1 VALUES(1,2,N'abc');
+INSERT INTO dbo.t1 VALUES(2,3,N'def');
+GO
+END
